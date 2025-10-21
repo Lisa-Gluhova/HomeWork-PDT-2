@@ -2,11 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
         int initialBalance = 500;
-        int replenishmentAmount = 1200;
+        int replenishmentAmount = 1050;
         int bonusStep = 100;
         int bonusAmount;
 
-        if (replenishmentAmount > 1_100) {
+        if (replenishmentAmount > 1_000) {
             bonusAmount = replenishmentAmount / bonusStep;
         } else {
             bonusAmount = 0;
